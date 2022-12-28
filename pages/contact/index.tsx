@@ -9,6 +9,7 @@ const ContactPage = () => {
         <meta name='description' content='contact'/>
       </Head>
       <h1>Contact Page</h1>
+      <h3>John Rios Oliveros</h3>
     </>
   )
 }
