@@ -1,7 +1,8 @@
-import Head from "next/head";
+
 import React, { FC } from "react";
-import Footer from "./Footer";
-import NavBarApp from "./NavBarApp";
+import Footer from "./FooterApp";
+import NavBarApp2 from "./navbar2/NavBarApp2";
+
 
 interface PropTyoe {
   children: JSX.Element;
@@ -10,7 +11,8 @@ const RouterLayout: FC<PropTyoe> = ({ children }) => {
   return (
     <>
       
-      <NavBarApp />
+     
+      <NavBarApp2 />
       <main>{children}</main>
       <Footer />
     </>

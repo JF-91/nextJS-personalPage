@@ -11,6 +11,7 @@ enum PaletteColors {
   SC = "#7895B2",
   WRR = "#FF9494",
   SSCC = "#C7F2A4",
+  FONT_GLOBAL= "Monserrat 'Open Sans'"
 }
 
 const ProviderConfig: FC<PropType> = ({ children }) => {
@@ -33,6 +34,9 @@ const ProviderConfig: FC<PropType> = ({ children }) => {
           main: PaletteColors.SSCC,
       },
     },
+    typography:{
+      fontFamily:PaletteColors.FONT_GLOBAL,
+    },
     components:{
       MuiButton:{
         defaultProps:{
@@ -47,7 +51,8 @@ const ProviderConfig: FC<PropType> = ({ children }) => {
             '&:hover':{background:"rgb(7,134,272,0.42)"}
           }
         }
-      }
+      },
+    
     }
   });
 

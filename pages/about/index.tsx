@@ -1,6 +1,10 @@
 
+import { Box } from "@mui/system";
 import Head from "next/head";
 import React from "react";
+import Info from "./main/Info";
+import MainAbout from "./main/main";
+import SubMain from "./main/subMain";
 
 export default function AboutPage() {
   return (
@@ -13,9 +17,14 @@ export default function AboutPage() {
       <Head>
         <meta name="keywords" content="john, francesc, rios, oliveros, developer, wien"/>
       </Head>
-        <div>
-            <h3>info page</h3>
-        </div>
+      
+      <Box>
+        <Info />
+        
+        <MainAbout />
+
+        <SubMain />
+      </Box>
     </>
   );
 }
