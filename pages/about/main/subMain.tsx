@@ -25,7 +25,7 @@ const SubMain = () => {
               borderBottom={1}
               marginBottom={5}
             >
-              More about me?
+              More about me!
             </Typography>
           </Box>
           <Box>
@@ -36,18 +36,17 @@ const SubMain = () => {
             >
               I have a great passion for technology and programming, one of my
               big goals these last two years was to learn how to program and my
-              skills have increased every day since then. 
+              skills have increased every day since then.
               <br />
               <br />
-              I have knowledge about
-              programming in Java and Typescript so object oriented programming
-              is one of my strengths, I have also managed to get certified as
-              AWS Cloud Practitioner and improve my knowledge in the cloud. I am
-              ready to perform on the frontend as well as on the backend in web
-              and mobile applications.
+              I have knowledge in java programming, typescript and javascript,
+              so object oriented programming is one of my strengths. This
+              website is developed with NextJs and Typescript. I am certified in
+              AWS as a Cloud Practitioner and have knowledge in the amazon cloud
+              and how to implement microservices. I am ready to work on both
+              frontend and backend, web and mobile applications.
               <br />
-              <br />
-              I am proud to have realized one of my goals as a teenager. I
+              <br />I am proud to have realized one of my goals as a teenager. I
               can share one of my great hobbies which is writing, and for that I
               developed an app.
             </Typography>

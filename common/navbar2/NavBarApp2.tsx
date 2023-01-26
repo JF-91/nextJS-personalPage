@@ -55,9 +55,9 @@ const NavBarApp2 = () => {
                       <Typography color="primary">Contact</Typography>
                     </Button>
                   </Link>
-                  <Link href="/social" style={{ textDecoration: "none" }}>
+                  <Link href="/portfolio" style={{ textDecoration: "none" }}>
                     <Button variant="outlined">
-                      <Typography color="primary">Social</Typography>
+                      <Typography color="primary">Portfolio</Typography>
                     </Button>
                   </Link>
                 </Stack>
@@ -119,9 +119,9 @@ const NavBarApp2 = () => {
                     </Link>
                   </Button>
                   <Button variant="contained" color="primary">
-                    <Link href="/social" style={{ textDecoration: "none" }}>
+                    <Link href="/portfolio" style={{ textDecoration: "none" }}>
                       <Typography variant="body2" color="black">
-                        Social
+                        Portfolio
                       </Typography>
                     </Link>
                   </Button>

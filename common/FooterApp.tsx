@@ -37,7 +37,7 @@ const FooterApp = () => {
               <Box>
                 <IconButton href="mailto:johnlb91@gmail.com" style={{ color: "#424242", marginBottom: "2.5em" }} target='_blank'>
                   <MailOutlineIcon />
-                  <Typography marginLeft={2}>John@mail.com</Typography>
+                  <Typography marginLeft={2}>John@gmail.com</Typography>
                 </IconButton>
               </Box>
             </Stack>
@@ -106,6 +106,9 @@ const FooterApp = () => {
             </Stack>
           </Grid>
         </Grid>
+        <Box textAlign="center" pt={{ xs: 5, sm: 10 }} pb={{ xs: 5, sm: 0 }} color='black'>
+                        John Rios &reg; {new Date().getFullYear()}
+                    </Box>
       </Container>
     </Box>
   );
