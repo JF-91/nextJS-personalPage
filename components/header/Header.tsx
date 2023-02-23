@@ -10,16 +10,16 @@ const Header = () => {
   return (
     <Box >
         <video playsInline  autoPlay loop  preload='auto' className='videoH' muted style={{
-           position: "absolute",
+           position: "fixed", //absolute
            zIndex: -1,
            top: 0,
            left: 0,
            width: '100%',
-           height: '100vh',
+           height: '400%',
            objectFit:'cover',
         }}>
-           <source type='video/mp4' src='/testheaderjohn.mp4'/>
-        </video>
+           <source type='video/mp4' src='/headerVideo.mp4'/>
+        </video> 
 
     </Box>
   )
