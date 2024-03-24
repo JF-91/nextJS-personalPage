@@ -69,21 +69,11 @@ const FooterApp = () => {
             </Box>
             <Stack direction={{xs:'column', sm:'row', lg:'row', xl:'row'}}>
               <Box>
-                <IconButton href="https://www.facebook.com/profile.php?id=100084795588215" target='_blank'>
-                  <FacebookIcon />
-                </IconButton>
-              </Box>
-              <Box>
-                <IconButton href="https://www.instagram.com/johnf_developer/" target='_blank'>
-                  <InstagramIcon />
-                </IconButton>
-              </Box>
-              <Box>
                 <IconButton href="https://www.linkedin.com/in/john-rios-618a9733/" target='_blank'>
                   <LinkedInIcon />
                 </IconButton>
               </Box>
-              <Box>
+              {/* <Box>
                 <IconButton href="https://twitter.com/johndrank" target='_blank'>
                   <TwitterIcon />
                 </IconButton>
@@ -92,15 +82,10 @@ const FooterApp = () => {
                 <IconButton href="mailto:johnlb91@gmail.com" target='_blank'>
                   <AlternateEmailIcon />
                 </IconButton>
-              </Box>
+              </Box> */}
               <Box>
                 <IconButton href="https://github.com/JF-91" target='_blank'>
                   <GitHubIcon />
-                </IconButton>
-              </Box>
-              <Box>
-                <IconButton href="https://t.me/+j3rkpSWAoyExMDM0" target='_blank'>
-                  <TelegramIcon />
                 </IconButton>
               </Box>
             </Stack>
